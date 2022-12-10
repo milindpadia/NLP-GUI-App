@@ -3,7 +3,7 @@ import paralleldots
 
 class API:
     def __init__(self):
-        paralleldots.set_api_key('USCFgcLQl29gXwxLTmdWsSt7rH8PQAtbG0TFKfQlblM')
+        paralleldots.set_api_key(<YOUR_API_KEY>)
 
     def sentiment_analysis(self, text):
         response = paralleldots.sentiment(text)
